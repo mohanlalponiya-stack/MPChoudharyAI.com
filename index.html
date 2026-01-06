@@ -4,8 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>फ्री AI Background Remover | MOHAN LAL POONIYA</title>
     
+    <meta name="google-site-verification" content="RwoyRyW2nDA3G36RjMfTopsnc-_s_C4yMCOEwi3LO1c" />
+
+    <title>फ्री AI Background Remover | MOHAN LAL POONIYA</title>
+    <meta name="description" content="AI की मदद से अपनी फोटो का बैकग्राउंड सिर्फ 5 सेकंड में मुफ्त में हटाएँ। तेज़, आसान और HD क्वालिटी।">
+    <meta name="keywords" content="Remove BG, AI Background Remover, Free Photo Editor, बैकग्राउंड हटाएँ, ऑनलाइन फोटो एडिटर">
+    <meta name="robots" content="index, follow">
+    
+    <meta property="og:title" content="AI Background Remover - फ्री टूल">
+    <meta property="og:description" content="सिर्फ एक क्लिक में अपनी फोटो का बैकग्राउंड हटाएँ।">
+    <meta property="og:type" content="website">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
     <style>
@@ -29,7 +39,7 @@
             animation: fadeIn 1s ease-in;
         }
 
-        /* नाम के लिए विशेष एनिमेशन */
+        /* एनिमेटेड डेवलपर नाम */
         .developer-name {
             font-size: 18px;
             font-weight: 800;
@@ -43,24 +53,11 @@
             text-transform: uppercase;
             letter-spacing: 1px;
             transition: 0.3s;
-            cursor: default;
         }
 
-        .developer-name:hover {
-            transform: scale(1.1);
-            filter: drop-shadow(0 0 5px rgba(98, 0, 234, 0.3));
-        }
+        @keyframes shine { to { background-position: 200% center; } }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
 
-        @keyframes shine {
-            to { background-position: 200% center; }
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        /* बटन और अन्य स्टाइल */
         .main-btn { 
             background: #6200ea; color: white; border: none; padding: 12px 30px; 
             border-radius: 50px; cursor: pointer; font-size: 16px; font-weight: bold;
@@ -99,7 +96,6 @@
         
         <div style="margin-top: 30px; border-top: 1px solid #eee; padding-top: 20px;">
             <div class="developer-name">Follow Developer: MOHAN LAL POONIYA</div>
-            
             <div class="social-links">
                 <a href="https://www.instagram.com/m_p_choudhary_09?igsh=MTJuZmFwNHJsZTZucA==" target="_blank" class="social-icon insta">
                     <i class="fab fa-instagram"></i>
@@ -115,7 +111,6 @@
     </div>
 
     <script>
-        // पुराना वर्किंग जावास्क्रिप्ट कोड ही इस्तेमाल करें
         async function removeBackground() {
             const fileInput = document.getElementById('fileInput');
             const loader = document.getElementById('loader');
